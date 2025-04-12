@@ -1,0 +1,35 @@
+button {
+    align-items: left;
+    background: #fff;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #000;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+    padding-top: 20px;
+    padding-bottom: 20px
+  }
+  
+  button:hover {
+    scale: 0.95
+  }
+  
+  button:active {
+    scale: 0.9
+  }
+  
